@@ -1,0 +1,218 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing:border-box;
+}
+html{
+  height: 100%;
+}
+.mainContainer{
+  min-height: 100%;
+  width: 100%;
+  position: relative;
+}
+body{
+  height: 100%;
+  background: #ddd;
+}
+.header h1{
+padding-top: 200px;
+  color: #223433;
+  font-family: "Staatliches",arial;
+  font-size: 40pt;
+  text-align: center;
+  letter-spacing: 5px;
+      -webkit-transition: text-shadow 0.3s linear;
+      -moz-transition: text-shadow 0.3s linear;
+      -ms-transition: text-shadow 0.3s linear;
+      -o-transition: text-shadow 0.3s linear;
+      transition: text-shadow 0.3s linear;
+}
+.header h1:hover {
+    text-shadow: 0 0 30px #FFA400;
+}
+.header h2{
+text-transform: uppercase;
+font-family: "Raleway","Segoe UI",Arial,sans-serif;;
+font-weight:lighter;
+letter-spacing: -1.5px;
+text-align: center;
+font-size: 22px;
+margin-bottom: 10px;
+}
+
+#and{
+  font-size: 18px;
+}
+.header img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: .9;
+  border-radius: 50%;
+  background: #333;
+  transition: .5s;
+  padding: 8px;
+}
+.header img:before{
+transition: .5s;
+transform: scale(.9);
+border-radius: 50%;
+}
+.header img:hover {
+transform: scale(1.1);
+}
+.header{
+  background: url("paint.jpg")no-repeat center fixed;
+  background-size: cover;
+  background-color:#585858;
+  background-blend-mode: screen;
+  height:500px;
+}
+.navigation{
+  background:#FFA400;
+}
+nav{
+  text-align: center;
+  text-transform: uppercase;
+  height: 40px;
+  width:560px;
+  display: block;
+  margin:0 auto;;
+}
+
+nav a{
+  display: block;
+  text-decoration: none;
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 13px;
+  color: #223433;
+}
+
+nav a:hover{
+  background:#223433;
+  color:#f0f1f5;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li{
+  float: left;
+  width: 140px;
+  height:40px;
+  line-height:40px;
+  background: #FFA400;
+}
+.sub li:last-child{
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius: 15px;
+}
+
+.sub li:last-child a:last-child{
+  border-bottom-left-radius:15px;
+  border-bottom-right-radius: 15px;
+}
+
+nav ul ul li{
+  position: relative;
+  display: none;
+  background: #FFC717;
+}
+
+nav ul li:hover ul li{
+display: block;
+animation: navmenu 500ms forwards;
+}
+
+@keyframes navmenu{
+  0%{
+    opacity:0;
+    top:5px;
+  }
+  100%{
+    opacity:1;
+    top: 0px;
+  }
+}
+
+.correct {
+  background-color: lightblue;
+}
+
+.incorrect {
+  background-color: mistyrose;
+}
+.num{
+  display: none;
+}
+#p1, #p2, #p3{
+  width: 73px;
+}
+.form{
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 4px;
+  font-family: "Raleway", sans-serif;
+  background: url("cont2.jpg");
+  background-size: 500px;
+  color: #fff;
+
+}
+.form input[type=text], input[type=email]  {
+  padding: 12px 20px;
+  margin: 8px 2px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.form h1{
+  text-align: center;
+  background: transparent;
+  margin-bottom:  20px;
+  padding: 1px;
+  font-family:"Staatliches", tahoma, arial, sans-serif;
+  font-size: 3.6em;
+
+}
+.form p{
+  padding: 10px 5px 5px 5px;
+  background-color:  rgba(0,0,0,.5);
+}
+.form textarea{
+  margin-top: 8px;
+  margin-left:2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button{
+width: 120px;
+height: 40px;
+font-family: "Staatliches";
+text-align: center;
+margin-left: 175px;
+margin-top: 10px;
+margin-bottom: 10px;
+border-radius: 4px;
+font-size: 1.4em;
+background-color:  rgba(0,0,0,.5);;
+color: white;
+border: none;
+}
+.form button:hover{
+background-color: white;
+color: black;
+}
+
+.subheading h2{
+  background:mistyrose;
+  border-radius:300px;
+  width:300px;
+  height:300px;
+  text-align: center;
+}
+#about{
+  margin:5% 10% 10% 10%;
+}
