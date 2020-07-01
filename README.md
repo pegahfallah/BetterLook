@@ -1,6 +1,6 @@
 # betterlook
 BetterLook was my first website design, with the theme being for a home renovation company. 
-Single page frontend of website that includes animations and a contact form.
+Single page sample of frontend design that includes animations and a contact form.
 
 ![](betterlook.gif)
 
